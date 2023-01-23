@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         // https://hub.docker.com/repositories
-        imageName = "widemos/nginx-egibide"
+        imageName = "juleninigo/nginx-egibide"
 
         // https://hub.docker.com/settings/security
         registryCredential = 'docker-hub'
